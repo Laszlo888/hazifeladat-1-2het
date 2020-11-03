@@ -1,0 +1,100 @@
+body{
+  margin: auto;  /* ez lenne a középre igazítás */
+  font-family: "consolas";
+  background-image: url("assets/bg.jpg");
+  font-size: 18px;
+  padding}
+
+#header {
+  padding: 0px 10px 5px 10px;
+}
+
+#logo { 
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 25px 0px 0px 60px;
+}
+
+#fejlecszoveg{
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 65px 0px 0px 400px;
+  color: white;
+  font-size: 85px;
+  font-family: "Syne Mono";
+  display: block;
+}
+
+#nav{
+  display: table;
+  margin:auto;}
+#nav ul {
+  overflow: hidden;
+  list-style: none;
+  margin:auto;
+  margin: 0;
+  padding: 0;
+}
+
+#nav li {
+  display: inline-block;
+}
+
+#nav a {
+  display: block;
+  text-decoration: none;
+  color: white;
+  padding: 0.7em 2em;
+  font-weight: bold;
+}
+
+#nav a:link {
+  background: white;
+}
+
+#nav a:visited {
+  background: #393;
+}
+#nav a:hover {
+  background: #c4a950;
+}
+#nav a:active {
+  background: #072f50;
+}
+
+#me{
+  margin: 0px 40px;
+  padding: 20px;
+}
+
+p{line-height: 1.6;}
+
+.content{
+ display: inline-block; /* egymás mellé bejövő div-ek */
+ width: 610px;  /* szükséges az inline-block-hoz hogy megadjuk mennyi legyen egy sorban */
+ vertical-align: top; /* ha ezt nem adjuk meg akkor nem a tetején kezdődik mindegyik div tartalom */
+ margin: 0px 40px;
+ padding: 20px;
+
+}
+
+h1 {
+margin: 0px 0px 0px 0px;  /* heading körüli üres területek eltüntetése */
+padding: 0px 0px 0px 0px; /* heading körüli üres területek eltüntetése */
+}
+
+footer {
+  height: 100px;
+  margin: 0px 10px;
+  background-color: #333;}
+
+
+.content2{display: inline-block; /* egymás mellé bejövő div-ek */
+  width: 450px;  /* szükséges az inline-block-hoz hogy megadjuk mennyi legyen egy sorban */
+  vertical-align: top; /* ha ezt nem adjuk meg akkor nem a tetején kezdődik mindegyik div tartalom */
+  text-align: center;
+  margin: 50px auto;
+  padding: 20px;
+  line-height: 1.6;}
